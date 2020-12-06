@@ -6,8 +6,9 @@ import (
 	"fmt"
 	"io"
 	"os"
-	//"golang.org/x/crypto/bcrypt"
-	//"gopkg.in/yaml.v2"
+	//"golang.org/x/crypto/bcrypt" // todo -> generate a key from a passphrase
+	//"gopkg.in/yaml.v2" // todo -> read yaml configuration file
+	//"github.com/google/uuid" // todo -> need a way to specify remote storage sandbox
 )
 
 type bcryptParameters struct {
